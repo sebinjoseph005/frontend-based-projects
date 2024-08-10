@@ -44,33 +44,33 @@
             <div class="right-section">
                 <h1 class="right-text">Create an account</h1>
                 <h3>it's easy and quick</h3>
-                <form action="">
+                <form action="" id="signup-form">
                 <tr>
-                <td><input class="typing" type="text" placeholder="  First name"></td>
-                <td><input class="typing" type="text" placeholder="  Surname"></td>
+                <td><input name="fname" class="typing" type="text" placeholder="  First name"></td>
+                <td><input name="sname" class="typing" type="text" placeholder="  Surname"></td>
                 <br>
                 <br>
-                <td><input class="typing2" type="text" placeholder="  Mobile number or email address"></td>
+                <td><input name="emailadd" class="typing2" type="text" placeholder="  Mobile number or email address"></td>
                 <br>
                 <br>
-                <td><input class="typing2" type="text" placeholder="  New password"></td>
+                <td><input name="password" class="typing2" type="text" placeholder="  New password"></td>
 
                  <p class="typing3">Birthday</p>
-                 <select class="select1">
-                    <option>Day</option>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
+                 <select class="select1" name="day">
+                    <option value="">day</option>
+                    <option value="1" >1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
                  </select>
-                 <select class="select2">
-                <option> Month</option>
+                 <select class="select2" name="month">
+                <option value=""> Month</option>
                 <option>Jan</option>
                 <option>Feb</option>
                 <option>March</option>
@@ -85,8 +85,8 @@
                 <option>Dec</option>
                  </select>
 
-                 <select class="select3">
-                    <option>Year</option>
+                 <select class="select3" name="year">
+                    <option value="">Year</option>
                     <option>1996</option>
                     <option>1997</option>
                     <option>1998</option>
@@ -105,11 +105,11 @@
                 <label class="typing3">Gender</label>
                 <br>
                 <br>
-                <input type="radio"> 
+                <input name="gender" type="radio"> 
                 <label class="typing4">Female</label>
-                <input type="radio">
+                <input name="gender" type="radio">
                 <label class="typing4">Male</label>
-                <input type="radio">
+                <input name="gender" type="radio">
                 <label class="typing4">Custom</label>
                 
                <p class="typing5">By clicking Sign-Up, you agree to our Terms,Data Policy <br> and Cookie Policy. You may receive SMS notification from <br> us and can opt out at any time</p>
@@ -126,5 +126,9 @@
         </div>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="fb.js"></script>
+
 </body>
 </html>
