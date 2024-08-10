@@ -1,0 +1,145 @@
+.header{
+    background-color:#3b5998 ;
+    width:100%;
+    height:85px;
+}
+body{
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.logo{
+    width:50%;
+    padding-top: 35px;
+    float:left;
+}
+.login{
+    width:50%;
+    float:left;
+}
+.logo-text{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 160px;
+}
+.login-label{
+    color: #fff;
+}
+.login-control{
+    padding-top: 10px;
+padding-left: 73px;
+}
+.forgotten{
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    color: #9cb4d8;
+}
+.log-button{
+    background-color: #4267b2;
+    color: #fff;
+    border-color: #4267b2;
+    cursor: pointer;
+}
+.log-button:hover{
+    background-color: #3b5998;
+}
+.left-section{
+    width:50%;
+    float: left;
+    padding-left: 132px;
+    padding-top: 28px;
+}
+.right-section{
+    width:40%;
+    float: left;
+    height: 500px;
+}
+.main-body{
+    background: linear-gradient(to bottom, #e8ebf1, #f3f5f9);
+    width: 100%;
+    height: 687px;
+
+}
+.image-work{
+    width: 600px;
+    height:300px;
+    border: 5px solid #e8ebf1
+}
+.text{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 7px;
+}
+.right-text{
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 10px;
+}
+.typing{
+    border: 1px solid #d2d6df;
+    height: 28px;
+    border-radius: 7px;
+    
+}
+.typing2{
+    border: 1px solid #d2d6df;
+    width: 334px;
+    height: 28px;
+    border-radius: 7px;
+}
+.typing3{
+    padding-left: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(151, 150, 150);
+}
+.select1{
+    width: 47px;
+    border-radius: 5px;
+    border: 1px solid #d2d6df; 
+    color: rgb(90, 89, 89);
+}
+.select2{
+    width: 70px;
+    border-radius: 5px;
+    border: 1px solid #d2d6df;
+    color: rgb(90, 89, 89); 
+}
+.select3{
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #d2d6df;
+    color: rgb(90, 89, 89); 
+}
+.typing4{
+    font-size: 17px;
+    color: rgb(67, 66, 66);
+}
+.typing5{
+    color: rgb(90, 89, 89); 
+    font-size: 12px;
+}
+.signup{
+    color: #fff;
+    background-color: rgba(53, 190, 53, 0.829);
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #0ce233;
+    width:210px;
+    height:40px;
+    border-radius: 7px;
+    border-color: black;
+}
+.typing7{
+    color: #3b5998;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.typing6{
+    font-weight: bold;
+    font-size: 15px;
+}

@@ -1,0 +1,31 @@
+.calc{
+    width: 400px;
+    height: 500px;
+    background-color: gray;
+    margin-left: 300px;
+    margin-top: 100px;
+    border: solid 5px rgb(182, 158, 158);
+}
+#screen{
+    width: 80%;
+    height:  60px;
+    margin-left: 34px;
+    margin-top: 30px;
+    pointer-events: none;
+    border-radius: 9px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn {
+    width: 62px;
+    height: 46px;
+    margin-left: 30px;
+    margin-top: 28px;
+    background-color: #d7d792;
+    border: solid 2px;
+    border-radius: 9px;
+}
+.sebin{
+    font-size: 30px;
+    margin-left: 300px;
+}
