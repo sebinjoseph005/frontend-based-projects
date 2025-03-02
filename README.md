@@ -1,6 +1,6 @@
 # Facebook UI Clone
 
-This project is a simple clone of Facebook's login and signup page, created using HTML and CSS. The goal of this project was to improve my frontend development skills by replicating a real-world website layout.
+This project is a simple clone of Facebook's login and signup page, created using HTML,CSS and javascript. The goal of this project was to improve my frontend development skills by replicating a real-world website layout.
 
 ## What I Learned 🏆
 
